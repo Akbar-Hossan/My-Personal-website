@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="nav">
+            <nav>
+                <header>Akbar</header>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer Undergrad</p>
+                <h1>Hi, I'm <span>Akbar</span><br>From SUST</h1>
+            </div>
+        </div>
+    </div>
+     <!-- -------------about-------------->
+    <div id="about">
+        <div class="nav">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.HEIC">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I’m Akbar,
+I am a passionate software engineering student with a huge curiosity about Information Technology.
+ I explore all that is possible and cherish the belief that everyone has the ability to make a difference.
+  I am trying to create a better future for the upcoming generation by gathering knowledge, Learning, 
+  and applying it to change my surroundings. <br>
+
+Feel free to ask me anything – I’m here to connect, learn, and share!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+                        <p class="tab-links" onclick="opentab('edu')">Education</p>
+                        <p class="tab-links" onclick="opentab('achive')">Achivements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>Graphic Design</span><br>Designing logo, poster, cover</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Data Science</span><br>On Beginner Level</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="edu">
+                        <ul>
+                            <li><span>2024-2028</span><br>Software Engineering at SUST.</li>
+                            <li><span>2023</span><br>HSC from Rangunia Govt. College.</li>
+                            <li><span>2021</span><br>SSC from North Pomra High School.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achive">
+                        <ul>
+                            <li><span>2024</span><br>Champion at Intra-Department Poster Design Competition 2024 organized by SUST IPE.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
